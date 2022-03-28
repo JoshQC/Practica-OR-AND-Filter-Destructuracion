@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  color: white;
+}
+
+hr {
+  width: 50%;
+  margin: 15px;
+  border: 1px solid black;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: lightslategrey;
+}
+
+.numeros {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(36, 36, 155);
+  border-radius: 5%;
+  max-width: 50%;
+}
+
+.numeros div {
+  margin: 5px;
+}
+
+button {
+  background-color: rgb(55, 55, 158);
+  padding: 5px;
+  width: 120px;
+  border-radius: 10%;
+}
